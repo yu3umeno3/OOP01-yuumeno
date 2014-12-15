@@ -21,11 +21,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    Score *Score = [[Score alloc] init];
-    
-    [score setIdNumber:107];
-    float average3 = [score average:70 eScore:50 jscore:80];
-    NSLog(@"3科目の平均点は%.2f点です。",average3);
+   
+    Score *score = [[Score  alloc] init];
+    float average3 = [score average:70 eScore:50 jScore:80];
+    NSLog(@"3科目の平均点は%.2f点です。", average3);
 
 }
 

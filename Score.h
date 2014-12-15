@@ -18,6 +18,6 @@
 }
 
 
--(float)average:(int)score1 eScore:(int)score2 jscore:(int)score3;
+-(float)average:(int)score1 eScore:(int)score2 jScore:(int)score3;
 
 @end
